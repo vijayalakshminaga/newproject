@@ -2,7 +2,7 @@
 FROM node:18
 
 # Set app directory
-WORKDIR /usr/src/app
+WORKDIR \Users\User\Documents\new project
 
 # Copy package files
 COPY package*.json ./
