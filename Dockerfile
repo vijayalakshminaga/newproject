@@ -2,7 +2,7 @@
 FROM node:18
 
 # Set app directory
-WORKDIR \Users\User\Documents\new project
+WORKDIR C:\Users\User\Documents\new project
 
 # Copy package files
 COPY package*.json ./
